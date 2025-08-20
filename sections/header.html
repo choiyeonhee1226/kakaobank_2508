@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="con-min-width border-green">
+    <header class="con-min-width">
         <div class="con border-blue flex">
-            <div class="border-red">
+            <div class="logo-wrap border-red">
                 <a href="#">
                     <img src="../kakaobank_imgs/imgi_18_logo_black.svg" alt="">
                 </a>
@@ -69,6 +69,10 @@
             justify-content: center;
         }
 
+        flex-as-c {
+            align-self: center;
+        }
+
         .flex-ai-c {
             align-items: center;
         }
@@ -102,6 +106,31 @@
         .con {
             width: 1080px;
         }
+
+/* 헤더시작 */
+     header {
+        height: 80px;
+        font-size: 15px;
+        background-color: bisque;
+     }
+
+/* 로고 */
+     header .logo_wrap > a {
+        width: 115px;
+        }
+     
+     header .logo_wrap > a > ing {
+        width: 100%;
+     }   
+
+/* dropdownmenu */
+     header .dropdown .bropBtn {
+        background-color: rgba(244,244,244,0.8);
+        color: rgba(68,68,68,1);
+        border: 1px solid rgba(229,229,229,0.8);
+        padding: 0 14px 0 18px;
+        
+     }
     </style>
 </body>
 </html>
