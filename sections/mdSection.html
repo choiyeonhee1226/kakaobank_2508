@@ -35,7 +35,7 @@
         <div></div>
     </section>
     <div class="md_divider"></div>
-    
+
     <section class="md_sec md_sec_5 con">
         <div></div>
         <div></div>
@@ -138,9 +138,29 @@
       background-color: #ffe400;
     }
 
-    /* ------------- 메인배너 시작 ------------- */
+    /* ------------- 중간섹션 시작 ------------- */
+    .md_sec {
+        min-height: 500px;
+        border: 10px solid black;
+        display: flex;
 
-    /* ------------- 메인배너 끝 ------------- */
+    }
+
+    .md_sec > div:first-child {
+        background-color: pink;
+        width: 50%;
+    }
+
+    .md_sec > div:last-child {
+        background-color: skyblue;
+        flex-grow: 1;
+    }
+
+    .md_divider {
+        height: 32px;
+        background-color: #fafafa;
+    }
+    /* ------------- 중간섹션 끝 ------------- */
   </style>
 </body>
 
